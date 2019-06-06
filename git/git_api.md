@@ -3,7 +3,7 @@
 ## Create remote repositories
 
 ```bash
-$ curl -u 'username' https://api.github.com/user/repos -d '{"name":"repo_name"}'
+$ curl -u 'username' https://api.github.com/user/repos -d '{"name":"repo_name", "description" : "repo_description"}'
 ```
 
 ### Parameters
